@@ -1,0 +1,25 @@
+{
+  "name": "amazon_scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/src/main.js",
+  "types": "build/src/main.d.ts",
+  "files": [
+    "build/src"
+  ],
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.49.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
